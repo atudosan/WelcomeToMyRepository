@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SignUp Test - CH(failed)">
+    <parameter name="lastName" value="Williams"/>
+    <parameter name="dateofBirth" value="11"/>
+    <parameter name="address" value="11 Bridge str"/>
+    <parameter name="city" value="Oakland"/>
+    <parameter name="postalCode" value="95874"/>
+    <parameter name="phoneNum" value="9158877990"/>
+    <parameter name="monthOfBirth" value="5"/>
+    <parameter name="firstName" value="John"/>
+    <parameter name="password" value="sonsmith"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="state" value="California"/>
+    <parameter name="email" value="sonsmith@mail.com"/>
+    <parameter name="yearOfBirth" value="1985"/>
+    <classes>
+      <class name="com.automationpractice.signuptests.SignUpTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="sighUp"/>
+        </methods>
+      </class> <!-- com.automationpractice.signuptests.SignUpTests -->
+    </classes>
+  </test> <!-- SignUp Test - CH(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AddItemToCartSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AddItemToCartTest(failed)">
+    <parameter name="password" value="pomsmith"/>
+    <parameter name="quantity" value="3"/>
+    <parameter name="color" value="orange"/>
+    <parameter name="size" value="large"/>
+    <parameter name="itemIndex" value="4"/>
+    <parameter name="email" value="pomsmith@mail.com"/>
+    <classes>
+      <class name="com.automationpractice.signuptests.AddItemsToShoppingCartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="addItemsToShoppingCartTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.automationpractice.signuptests.AddItemsToShoppingCartTest -->
+    </classes>
+  </test> <!-- AddItemToCartTest(failed) -->
+</suite> <!-- Failed suite [AddItemToCartSuite] -->

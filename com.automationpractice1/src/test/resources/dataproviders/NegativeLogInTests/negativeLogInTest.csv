@@ -1,0 +1,6 @@
+no,email,password,expectedMessage,description
+1,rrronsmith@mail.com,ronsmith,Authentication failed.,incorrect username + correct password
+2,ronsmith@mail.com,rrronsmith,Authentication failed.,incorect password + correct username
+3,rrronsmith@mail.com,rrronsmith,Authentication failed.,incorect username and password
+4,,ronsmith,An email address required.,blanc username + correct password
+5,ronsmith@mail.com,,Password is required.,empty password  + correct username

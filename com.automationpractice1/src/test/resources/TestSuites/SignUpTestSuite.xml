@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="SignUp Test - CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="firstName" value="John"></parameter>
+		<parameter name="lastName" value="Williams"></parameter>
+		<parameter name="email" value="pponsmith@mail.com"></parameter>
+		<parameter name="password" value="sonsmith"></parameter>
+		<parameter name="dateofBirth" value="11"></parameter>
+		<parameter name="monthOfBirth" value="5"></parameter> <!-- month of birth must be a integer from 1 to 12 -->
+		<parameter name="yearOfBirth" value="1985"></parameter>
+		<parameter name="address" value="11 Bridge str"></parameter>
+		<parameter name="city" value="Oakland"></parameter>
+		<parameter name="state" value="California"></parameter>
+		<parameter name="postalCode" value="95874"></parameter>
+		<parameter name="phoneNum" value="9158877990"></parameter>
+		
+		<classes>
+			<class
+				name="com.automationpractice.signuptests.SignUpTests">
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

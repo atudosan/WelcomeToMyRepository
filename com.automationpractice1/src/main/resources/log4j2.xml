@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+	<Appenders>
+		<Console name="ConsoleAppender" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss,SSS} [%c{1}:%L] %-5p  %m%n" />
+		</Console>
+		<!-- <RollingFile name="ROLLINGFILE"
+			fileName="logs/application.log"
+			filePattern="logs/$${date:yyyy-MM-dd}/application-d%{yyyy-MM-dd}-%i.log">
+			<PatternLayout>
+				<Pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %c{1}:%L - %m%n
+				</Pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggerPolicy />
+				<SizeBasedTriggerPolicy size="1MB" />
+			</Policies>
+			<DefaultRollerStrategy max="5" />
+		</RollingFile> -->
+	</Appenders>
+
+	<Loggers>
+		<Root level="TRACE">
+			<AppenderRef ref="ConsoleAppender" />
+		</Root>
+	</Loggers>
+
+</Configuration>

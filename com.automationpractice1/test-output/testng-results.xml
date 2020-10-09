@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-09T21:08:01Z" name="Suite" finished-at="2020-10-09T21:08:29Z" duration-ms="27768">
+    <groups>
+    </groups>
+    <test started-at="2020-10-09T21:08:01Z" name="SignUp Test - CH" finished-at="2020-10-09T21:08:29Z" duration-ms="27768">
+      <class name="com.automationpractice.signuptests.SignUpTests">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.automationpractice.signuptests.SignUpTests@5d43661b]" started-at="2020-10-09T21:08:02Z" name="setUp" finished-at="2020-10-09T21:08:16Z" duration-ms="13695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2f860823]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.automationpractice.signuptests.SignUpTests.sighUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sighUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.signuptests.SignUpTests@5d43661b]" started-at="2020-10-09T21:08:16Z" name="sighUp" finished-at="2020-10-09T21:08:28Z" duration-ms="12246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Williams]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pponsmith@mail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sonsmith]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[11 Bridge str]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Oakland]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[95874]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[9158877990]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sighUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationpractice.signuptests.SignUpTests@5d43661b]" started-at="2020-10-09T21:08:28Z" name="tearDown" finished-at="2020-10-09T21:08:29Z" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationpractice.signuptests.SignUpTests -->
+    </test> <!-- SignUp Test - CH -->
+  </suite> <!-- Suite -->
+</testng-results>
